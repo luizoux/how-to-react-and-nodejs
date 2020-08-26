@@ -36,10 +36,10 @@ create-react-app <nome-projeto>
 ```
 
 Meu editor de código favorito é o Visual Studio Code, então para abrir de maneira rápida a pasta que eu quero acessar, eu entro nela pelo terminal e uso o comando `code .` para abrir.
-![image-20200826135405201](C:\Users\luiza\AppData\Roaming\Typora\typora-user-images\image-20200826135405201.png)
+![image-20200826135405201](img/img-1.png)
 
 A estrutura do projeto ficará assim:
-![image-20200826130558117](C:\Users\luiza\AppData\Roaming\Typora\typora-user-images\image-20200826130558117.png)
+![image-20200826130558117](img/img-2.png)
 
 Geralmente, deleto alguns arquivos que não irei utilizar:
 - App.css

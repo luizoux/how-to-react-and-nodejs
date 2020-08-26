@@ -28,10 +28,10 @@ create-react-app <project-name>
 ```
 
 My favorite code editor is Visual Studio Code, so enter the web folder and use the command `code .` to open.
-![image-20200826135405201](C:\Users\luiza\AppData\Roaming\Typora\typora-user-images\image-20200826135405201.png)
+![image-20200826135405201](img/img-1.png)
 
 The project structure should be like this:
-![image-20200826130558117](C:\Users\luiza\AppData\Roaming\Typora\typora-user-images\image-20200826130558117.png)
+![image-20200826130558117](img/img-2.png)
 
 Delete these files:
 - App.css
