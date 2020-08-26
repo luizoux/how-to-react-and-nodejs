@@ -3,12 +3,12 @@
 
 This tutorial doesn't have a detailed introduction to React! The purpose of this article is to just unify the commands needed to create a project, very simplified and fast.
 
-## Table of Contents
-\1. [Web (front-end)](#web)
-\2. [Server (back-end)](#server)
-\3. [Mobile using React Native](#mobile)
-\4. [How to run](#run)
-\5. [Contribution or Issues](#contribution)
+### Table of Contents
+1. [Web (front-end)](#web)
+2. [Server (back-end)](#server)
+3. [Mobile using React Native](#mobile)
+4. [How to run](#run)
+5. [Contribution or Issues](#contribution)
 
 First, you need to install these things:
 - Node.js
@@ -16,7 +16,7 @@ First, you need to install these things:
 - Yarn
 - Expo
 
-### Web (front-end) <a name="web"></a>
+## Web (front-end) <a name="web"></a>
 To create the web app with react.js, you first need to install the create-react-app. Use this following command to do so:
 ```
 npm install -g create-react-app
@@ -41,7 +41,7 @@ Delete these files:
 
 The file servicerWorker.js is to work with PWA.
 
-### Server (back-end) <a name="server"></a>
+## Server (back-end) <a name="server"></a>
 
 In the project folder open a terminal and execute the command:
 ```mkdir server```
@@ -65,7 +65,7 @@ Execute this command to execute the server and see if there is some change inthe
 ```yarn add ts-node-dev -D```
 
 
-#### Mobile using React Native <a name="mobile"></a>
+## Mobile using React Native <a name="mobile"></a>
 Command to create the project:
 `expo init mobile` ou `expo init mobile --template "blank"`
 

@@ -10,11 +10,11 @@ Links que pode te ajudar a começar com o React:
 * [Documentação do React](https://reactjs.org/docs/getting-started.html).
 
 ### Conteúdo
-\1. [Web (front-end)](#web)
-\2. [Server (back-end)](#server)
-\3. [Mobile usando React Native](#mobile)
-\4. [Como rodar o projeto](#run)
-\5. [Contribuição e Bugs/Problemas](#contribution)
+1. [Web (front-end)](#web)
+2. [Server (back-end)](#server)
+3. [Mobile usando React Native](#mobile)
+4. [Como rodar o projeto](#run)
+5. [Contribuição e Bugs/Problemas](#contribution)
 
 ### O que precisa para começar:
 Primeiro, você precisa instalar essas ferramentas:
@@ -24,7 +24,7 @@ Primeiro, você precisa instalar essas ferramentas:
 * Expo
 
 
-### Web (front-end) <a name="web"></a>
+## Web (front-end) <a name="web"></a>
 Para criar o web app você precisa primeiro instalar instalar o create-react-app. Use o seguinte comando no seu terminal de preferencia:
 ```
 npm install -g create-react-app
@@ -50,7 +50,7 @@ Geralmente, deleto alguns arquivos que não irei utilizar:
 O arquivo `servicerWorker.js` é para trabalhar com projetos em PWA.
 
 
-### Server (back-end) <a name="server"></a>
+## Server (back-end) <a name="server"></a>
 Entre na pasta em que deseja criar o server e execute o seguinte comando:
 ```mkdir server```
 
@@ -70,7 +70,7 @@ Use o seguinte [comando](https://www.npmjs.com/package/ts-node-dev) para executa
 ```yarn add ts-node-dev -D```
 O `-D` significa que será usado apenas em dev e não em produção.
 
-### Mobile using React Native <a name="mobile"></a>
+## Mobile using React Native <a name="mobile"></a>
 Utilize um dos seguintes comandos para criar o projeto mobile:
 ```expo init mobile```
 ou 
