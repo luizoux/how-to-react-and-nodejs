@@ -56,27 +56,37 @@ The `servicerWorker.js` file is for working with PWA projects.
 ## ⌨️ Server (back-end) <a name="server"></a>
 Access the folder where you want to create the server and run the following command:
 
-```mkdir server```
+```
+mkdir server
+```
 
 Get into the folder `server` using the command `cd server` and use the yarn init command:
 
-```yarn init -y```
+```
+yarn init -y
+```
 
 Open the folder on Visual Studio Code using `code .`.
 
 To complete the project configuration you need to install Typescript in the project. Use the following command:
 
-```yarn add typescript -D```
+```
+yarn add typescript -D
+```
 
 and
 
-```yarn tsc --init```
+```
+yarn tsc --init
+```
 
 In the `tsconfig.json `file, change the `"target": "es5"` to `"target": "es2017"`. You need to do this because it is until the 2017 version that has the features that Node.js recognizes.
 
 Use the following [command](https://www.npmjs.com/package/ts-node-dev) to run the server and see if there are any changes to the script. This automates the process to get Node to understand Typescript.
 
-```yarn add ts-node-dev -D```
+```
+yarn add ts-node-dev -D
+```
 
 The `-D` means that it will be used only in development mode and not in production.
 
@@ -84,11 +94,15 @@ The `-D` means that it will be used only in development mode and not in producti
 ## 📱 Mobile using React Native <a name="mobile"></a>
 Use one of the following commands to create the mobile project:
 
-```expo init mobile```
+```
+expo init mobile
+```
 
 or
 
-```expo init mobile --template "blank"```
+```
+expo init mobile --template "blank"
+```
 
 
 ## 🦾 Contribution or 🐞 Issues <a name="contribution"></a>
