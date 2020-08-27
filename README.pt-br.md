@@ -83,3 +83,5 @@ Escrevi este pequeno tutorial para ajudar na jornada dos aventureiros de React i
 
 ## 📃 License
 Escrito com 💙 por [Luiza R. Marinho](https://github.com/luizous).
+
+Este tutorial está sobre a licença [MIT](LICENSE).

@@ -17,10 +17,10 @@ I suggest reading the documentation for any technology you are going to use. At 
 
 ### What you need to get started:
 First, you need to install these tools:
-* [Node.js](https://nodejs.org/en/);
-* [NPM](https://www.npmjs.com/get-npm);
-* [Yarn](https://yarnpkg.com/getting-started);
-* [Expo](https://expo.io/learn).
+* [Node.js](https://nodejs.org/en/)
+* [NPM](https://www.npmjs.com/get-npm)
+* [Yarn](https://yarnpkg.com/getting-started)
+* [Expo](https://expo.io/learn)
 
 ## Web (front-end) <a name="web"></a>
 To create the web app you need to install the create-react-app. Use the following command in the terminal of your choice:
@@ -85,3 +85,5 @@ I wrote this little tutorial for the adventurous beginners on this study journey
 
 ## 📃 License
 Written with 💙 by [Luiza R. Marinho](https://github.com/luizous).
+
+This tutorial is under [MIT License](LICENSE).
