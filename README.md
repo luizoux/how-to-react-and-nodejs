@@ -1,6 +1,6 @@
 ## How to create a React and React Native project
 
-#### 🔠 Languages
+### 🔠 Languages
 * [Português](README.pt-br.md)
 
 This tutorial does not have a detailed instruction on React and React Native. The purpose is to bring together the step-by-step and commands to create a project, fast and simplified.
