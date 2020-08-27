@@ -1,5 +1,7 @@
 ## How to create a React and React Native project
-🔠 [Português](README.pt-br.md)
+
+#### 🔠 Languages
+* [Português](README.pt-br.md)
 
 This tutorial does not have a detailed instruction on React and React Native. The purpose is to bring together the step-by-step and commands to create a project, fast and simplified.
 
@@ -22,7 +24,7 @@ First, you need to install these tools:
 * [Yarn](https://yarnpkg.com/getting-started)
 * [Expo](https://expo.io/learn)
 
-## Web (front-end) <a name="web"></a>
+## 🖥 Web (front-end) <a name="web"></a>
 To create the web app you need to install the create-react-app. Use the following command in the terminal of your choice:
 ```
 npm install -g create-react-app
@@ -51,7 +53,7 @@ I delete some files that I will not use:
 The `servicerWorker.js` file is for working with PWA projects.
 
 
-## Server (back-end) <a name="server"></a>
+## ⌨️ Server (back-end) <a name="server"></a>
 Access the folder where you want to create the server and run the following command:
 ```mkdir server```
 
@@ -72,7 +74,7 @@ Use the following [command](https://www.npmjs.com/package/ts-node-dev) to run th
 The `-D` means that it will be used only in development mode and not in production.
 
 
-## Mobile using React Native <a name="mobile"></a>
+## 📱 Mobile using React Native <a name="mobile"></a>
 Use one of the following commands to create the mobile project:
 ```expo init mobile```
 or

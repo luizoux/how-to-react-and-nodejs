@@ -1,5 +1,7 @@
 ## Como criar um projeto React e React Native
-🔠 [English](README.md)
+
+#### 🔠 Idiomas
+* [English](README.md)
 
 Este tutorial não tem possui uma instrodução detalhada sobre React e React Native. O propósito é de juntar em um só lugar os passo-a-passo e os comandos para criar um projeto, rápido e simplificado.
 
@@ -70,7 +72,7 @@ Use o seguinte [comando](https://www.npmjs.com/package/ts-node-dev) para executa
 ```yarn add ts-node-dev -D```
 O `-D` significa que será usado apenas em dev e não em produção.
 
-## Mobile using React Native <a name="mobile"></a>
+## 📱 Mobile using React Native <a name="mobile"></a>
 Utilize um dos seguintes comandos para criar o projeto mobile:
 ```expo init mobile```
 ou 
