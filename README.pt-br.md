@@ -1,7 +1,5 @@
 ## Como criar um projeto React e React Native
-
-### 🔠 Idiomas
-* [English](README.md)
+[![EN](https://img.shields.io/badge/🇺🇸-English-red)](README.md)
 
 Este tutorial não tem possui uma instrodução detalhada sobre React e React Native. O propósito é de juntar em um só lugar os passo-a-passo e os comandos para criar um projeto, rápido e simplificado.
 
