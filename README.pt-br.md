@@ -38,9 +38,11 @@ create-react-app <nome-projeto>
 ```
 
 Meu editor de código favorito é o Visual Studio Code, então para abrir de maneira rápida a pasta que eu quero acessar, eu entro nesta pasta pelo terminal e uso o comando `code .` para abrir.
+
 ![Exemplo de como abrir a pasta pelo terminal de comando](img/img-2.png)
 
 A estrutura do projeto ficará assim:
+
 ![Exemplo de estrutura do projeto](img/img-1.png)
 
 Geralmente, deleto alguns arquivos que não irei utilizar:
@@ -54,16 +56,21 @@ O arquivo `servicerWorker.js` é para trabalhar com projetos em PWA.
 
 ## Server (back-end) <a name="server"></a>
 Entre na pasta em que deseja criar o server e execute o seguinte comando:
+
 ```mkdir server```
 
 Entre na pasta `server` usando o comando `cd server` e execute o comando:
+
 ```yarn init -y```
 
 Agora você pode abrir a pasta usando comando se quiser `code .`.
 
 Para concluir a configuração do projeto você precisa instalar o Typescript no projeto. Use o seguinte comando:
+
 ```yarn add typescript -D```
+
 e 
+
 ```yarn tsc --init```
 
 No arquivo `tsconfig.json`, mude o `"target": "es5"` para `"target": "es2017"`. Você precisa fazer isso porque é até a versão de 2017 que tem as funcionalidades que o Node.js reconhece. 
@@ -74,8 +81,11 @@ O `-D` significa que será usado apenas em dev e não em produção.
 
 ## 📱 Mobile using React Native <a name="mobile"></a>
 Utilize um dos seguintes comandos para criar o projeto mobile:
+
 ```expo init mobile```
+
 ou 
+
 ```expo init mobile --template "blank"```
 
 
