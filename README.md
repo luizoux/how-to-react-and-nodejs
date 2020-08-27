@@ -35,9 +35,11 @@ create-react-app <project-name>
 (the project-name without the `<>`)
 
 My favorite code editor is Visual Studio Code, so to quickly open the folder I want to access, I access the folder through the terminal and use the command `code .` to open. Example:
+
 ![Example of how to open the folder via the command terminal](img/img-2.png)
 
 The project structure will look like this:
+
 ![Project structure example](img/img-1.png)
 
 I delete some files that I will not use:
