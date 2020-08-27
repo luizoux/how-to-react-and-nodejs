@@ -1,12 +1,12 @@
 ## Como criar um projeto React e React Native
 🔠 [English](README.md)
 
-Este tutorial não tem possui uma instrodução detalhada sobre React e React Native. O propósito é de incluir em um só lugar os passo-a-passo e comandos para criar um projeto, rápido e simplificado.
+Este tutorial não tem possui uma instrodução detalhada sobre React e React Native. O propósito é de juntar em um só lugar os passo-a-passo e os comandos para criar um projeto, rápido e simplificado.
 
-Sugiro ler as documentações de qualquer tecnologia que for utilizar. No começo pode parecer complicado, mas só com a documentação que realmente aprende sobre.
+Sugiro ler as documentações de qualquer tecnologia que for utilizar. No começo pode parecer complicado, mas só com a documentação que realmente aprende profundamente sobre.
 
-Links que pode te ajudar a começar com o React:
-* [Start Cursos do Rocketseat](https://app.rocketseat.com.br/dashboard) e se atualizar sobre a stack lendo os artigos do [blog](https://blog.rocketseat.com.br/tag/reactjs/);
+#### Links que pode te ajudar a começar com o React:
+* [Cursos do Rocketseat](https://app.rocketseat.com.br/dashboard) e se atualizar sobre a stack lendo os artigos no deles [blog](https://blog.rocketseat.com.br/tag/reactjs/). Alguns cursos são de graça, então fica de olho;
 * [Documentação do React](https://reactjs.org/docs/getting-started.html).
 
 ### Conteúdo
@@ -18,14 +18,14 @@ Links que pode te ajudar a começar com o React:
 
 ### O que precisa para começar:
 Primeiro, você precisa instalar essas ferramentas:
-* Node.js 
-* NPM
-* Yarn
-* Expo
+* [Node.js](https://nodejs.org/en/);
+* [NPM](https://www.npmjs.com/get-npm);
+* [Yarn](https://yarnpkg.com/getting-started);
+* [Expo](https://expo.io/learn).
 
 
 ## Web (front-end) <a name="web"></a>
-Para criar o web app você precisa primeiro instalar instalar o create-react-app. Use o seguinte comando no seu terminal de preferencia:
+Para criar o web app você precisa primeiro instalar o create-react-app. Use o seguinte comando no seu terminal de preferência:
 ```
 npm install -g create-react-app
 ```
@@ -35,17 +35,17 @@ Acesse a pasta onde você deseja criar seu projeto e execute o seguinte comando 
 create-react-app <nome-projeto>
 ```
 
-Meu editor de código favorito é o Visual Studio Code, então para abrir de maneira rápida a pasta que eu quero acessar, eu entro nela pelo terminal e uso o comando `code .` para abrir.
-![image-20200826135405201](img/img-1.png)
+Meu editor de código favorito é o Visual Studio Code, então para abrir de maneira rápida a pasta que eu quero acessar, eu entro nesta pasta pelo terminal e uso o comando `code .` para abrir.
+![Exemplo de como abrir a pasta pelo terminal de comando](img/img-2.png)
 
 A estrutura do projeto ficará assim:
-![image-20200826130558117](img/img-2.png)
+![Exemplo de estrutura do projeto](img/img-1.png)
 
 Geralmente, deleto alguns arquivos que não irei utilizar:
-- App.css
-- App.test.js
-- index.css
-- logo.svg
+* `App.css`
+* `App.test.js`
+* `index.css`
+* `logo.svg`
 
 O arquivo `servicerWorker.js` é para trabalhar com projetos em PWA.
 
@@ -54,7 +54,7 @@ O arquivo `servicerWorker.js` é para trabalhar com projetos em PWA.
 Entre na pasta em que deseja criar o server e execute o seguinte comando:
 ```mkdir server```
 
-Entre na pasta `server` usando o comando `cd server` e ezecute o comando
+Entre na pasta `server` usando o comando `cd server` e execute o comando:
 ```yarn init -y```
 
 Agora você pode abrir a pasta usando comando se quiser `code .`.
