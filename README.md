@@ -75,7 +75,7 @@ yarn add typescript -D
 and
 
 ```
-yarn tsc --init
+yarn tsc --init 
 ```
 
 In the `tsconfig.json `file, change the `"target": "es5"` to `"target": "es2017"`. You need to do this because it is until the 2017 version that has the features that Node.js recognizes.
