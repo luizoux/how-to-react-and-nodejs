@@ -73,20 +73,20 @@ I delete some files that I will not use:
 The `servicerWorker.js` file is for working with PWA projects.
 
 ### Some definitions:
-#### tsconfig.json
+#### `tsconfig.json`
 <!--Configurações do Typescript.-->
 Typescript settings.
 
-#### yarnlock
+#### `yarnlock`
 <!--Arquivo que armazena a versão de cada uma das dependências que está instalada no projeto. -->
 File that stores the version of each of the dependencies that is installed in the project.
 
-#### node_modules
+#### `node_modules`
 <!--Pasta onde fica os códigos das dependências instaladas-->
 Folder where the codes of the installed dependencies are located.
 
 
-#### src
+#### `src`
 <!--`index.tsx` é o primeiro arquivo que o react carrega-->
 `index(.tsx, .jsx, .js)` is the first file that React loads.
 
