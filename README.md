@@ -29,10 +29,32 @@ npm install -g create-react-app
 ```
 
 Access the folder where you want to create your project and run the following command:
+
+#### npx
 ```
-create-react-app <project-name>
+npx create-react-app <project-name>
 ```
-(the project-name without the `<>`)
+#### npm
+```
+npm init react-app <project-name>
+```
+#### Yarn
+```
+yarn create react-app <project-name>
+```
+
+### Using templates
+You can now optionally start a new app from a template by appending --template [template-name] to the creation command.
+
+#### npx
+```
+npx create-react-app <project-name> --template [template-name]
+````
+#### Yarn
+```
+yarn create react-app <project-name> --template [template-name]
+````
+(the project-name without the `<>` and template name without the `[]`)
 
 My favorite code editor is Visual Studio Code, so to quickly open the folder I want to access, I access the folder through the terminal and use the command `code .` to open. Example:
 
@@ -50,6 +72,23 @@ I delete some files that I will not use:
 
 The `servicerWorker.js` file is for working with PWA projects.
 
+### Some definitions:
+#### `tsconfig.json`
+<!--Configurações do Typescript.-->
+Typescript settings.
+
+#### `yarnlock`
+<!--Arquivo que armazena a versão de cada uma das dependências que está instalada no projeto. -->
+File that stores the version of each of the dependencies that is installed in the project.
+
+#### `node_modules`
+<!--Pasta onde fica os códigos das dependências instaladas-->
+Folder where the codes of the installed dependencies are located.
+
+
+#### `src`
+<!--`index.tsx` é o primeiro arquivo que o react carrega-->
+`index(.tsx, .jsx, .js)` is the first file that React loads.
 
 ## ⌨️ Server (back-end) <a name="server"></a>
 Access the folder where you want to create the server and run the following command:
